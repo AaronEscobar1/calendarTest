@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.min {
+  min-height: 10vh;
+}
+
+.currentDay {
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: #1976D2 !important;
+  width: auto;
+}
+
+.header {
+  display: flex;
+  margin: auto;
+}
+
+.header > h2 {
+  margin: auto;
+}
+
+.smallCalendar > * {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.smallCalendar {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.smallCalendarContainer {
+  width: 20vw;
+  margin: auto;
+}
